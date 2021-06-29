@@ -139,8 +139,8 @@
                 <img src="{{ asset('dist/img/user2-160x160.jpg') }}" class="img-circle" alt="User Image">
 
                 <p>
-                  <p>{{ Auth::user()->name}}</p> - 18090112
-                  <small>6B</small>
+                  <p>{{ Auth::user()->name}}</p> - 18090020
+                  <small>6A</small>
                 </p>
               </li>
               <!-- Menu Footer-->
