@@ -19,7 +19,7 @@ class SuratSeeder extends Seeder
         DB::table('surats')->insert([
             'nomor_surat' => '123',
             'tanggal_surat' => '2021-04-15',
-            'pengirim' => 'Hadi',
+            'pengirim' => 'rifki',
             'data_file' => '',
         ]);
     }
