@@ -10,7 +10,7 @@
     </li>
   <li class="active treeview">
     <a href="{{ url('surat')}}">
-      <i class="fa fa-envelope"></i> <span>Hp</span>
+      <i class="fa fa-envelope"></i> <span>Surat</span>
     </a>
   </li>
 </ul>
@@ -22,12 +22,12 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Tambah Hp
+        Tambah Surat
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
         <li><a href="#">Forms</a></li>
-        <li class="active">Tambah Hp</li>
+        <li class="active">Tambah Surat</li>
       </ol>
     </section>
 
@@ -39,7 +39,7 @@
           <!-- Tambah Surat -->
           <div class="box box-primary">
             <div class="box-header with-border">
-              <h3 class="box-title">Tambah Hp</h3>
+              <h3 class="box-title">Tambah Surat</h3>
             </div>
             <!-- /.box-header -->
             <!-- form start -->
@@ -47,20 +47,20 @@
                 @csrf
               <div class="box-body">
                 <div class="form-group">
-                    <label>Merk Hp</label>
+                    <label>Merk Surat</label>
                     <input type="number" name="nomor_surat" class="form-control @error('nomor_surat') is-invalid @enderror" 
                     value="{{ old('nomor_surat') }}" autofocus>
-                    @error('Merk Hp')
+                    @error('Merk Surat')
                     <div class="invalid-feedback">
                         {{ $message }}
                     </div>
                     @enderror
                 </div>
                 <div class="form-group">
-                    <label>Tipe Hp</label>
+                    <label>Tipe Surat</label>
                     <input type="text" name="pengirim" class="form-control @error('pengirim') is-invalid @enderror" 
                     value="{{ old('pengirim') }}">
-                    @error('Tipe Hp')
+                    @error('Tipe Surat')
                     <div class="invalid-feedback">
                         {{ $message }}
                     </div>
@@ -68,7 +68,7 @@
                 </div>
                 <div class="form-group">
                     <div class="form-group">
-                        <label>Tahun</label>
+                        <label>Tanggal</label>
                         <input type="date" name="tanggal_surat" class="form-control" 
                         value="{{ old('Tahun') }}">
                     </div>
