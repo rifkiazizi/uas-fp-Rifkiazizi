@@ -10,7 +10,7 @@
     </li>
   <li class="treeview">
     <a href="{{'surat'}}">
-      <i class="fa fa-envelope"></i> <span>Hp</span>
+      <i class="fa fa-envelope"></i> <span>Surat</span>
     </a>
   </li>
 </ul>
