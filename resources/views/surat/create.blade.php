@@ -50,7 +50,7 @@
                     <label>tipe Hp</label>
                     <input type="number" name="nomor_surat" class="form-control @error('nomor_surat') is-invalid @enderror" 
                     value="{{ old('nomor_surat') }}" autofocus>
-                    @error('Merk Hp')
+                    @error('tipe Hp')
                     <div class="invalid-feedback">
                         {{ $message }}
                     </div>
@@ -60,7 +60,7 @@
                     <label>merk Hp</label>
                     <input type="text" name="pengirim" class="form-control @error('pengirim') is-invalid @enderror" 
                     value="{{ old('pengirim') }}">
-                    @error('Tipe Hp')
+                    @error('merk Hp')
                     <div class="invalid-feedback">
                         {{ $message }}
                     </div>
