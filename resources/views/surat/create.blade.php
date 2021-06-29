@@ -50,14 +50,14 @@
                     <label>Merk Surat</label>
                     <input type="number" name="nomor_surat" class="form-control @error('nomor_surat') is-invalid @enderror" 
                     value="{{ old('nomor_surat') }}" autofocus>
-                    @error('Merk Surat')
+                    @error('nomor Surat')
                     <div class="invalid-feedback">
                         {{ $message }}
                     </div>
                     @enderror
                 </div>
                 <div class="form-group">
-                    <label>Tipe Surat</label>
+                    <label>Pengirim Surat</label>
                     <input type="text" name="pengirim" class="form-control @error('pengirim') is-invalid @enderror" 
                     value="{{ old('pengirim') }}">
                     @error('Tipe Surat')
@@ -68,7 +68,7 @@
                 </div>
                 <div class="form-group">
                     <div class="form-group">
-                        <label>Tanggal</label>
+                        <label>Tahun</label>
                         <input type="date" name="tanggal_surat" class="form-control" 
                         value="{{ old('Tahun') }}">
                     </div>
