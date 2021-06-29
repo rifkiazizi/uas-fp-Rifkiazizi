@@ -12,9 +12,9 @@
     <table class="table table-bordered">
     <thead>
       <tr class="table-danger">
-        <td>Nomor Surat</td>
-        <td>Pengirim</td>
-        <td>Tanggal Surat</td>
+        <td>Merk hp</td>
+        <td>Tipe Hp</td>
+        <td>Tahun</td>
         <td>File</td>
       </tr>
       </thead>
