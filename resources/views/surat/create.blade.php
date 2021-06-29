@@ -47,20 +47,20 @@
                 @csrf
               <div class="box-body">
                 <div class="form-group">
-                    <label>tipe Hp</label>
+                    <label>Merk Hp</label>
                     <input type="number" name="nomor_surat" class="form-control @error('nomor_surat') is-invalid @enderror" 
                     value="{{ old('nomor_surat') }}" autofocus>
-                    @error('tipe Hp')
+                    @error('Merk Hp')
                     <div class="invalid-feedback">
                         {{ $message }}
                     </div>
                     @enderror
                 </div>
                 <div class="form-group">
-                    <label>merk Hp</label>
+                    <label>Tipe Hp</label>
                     <input type="text" name="pengirim" class="form-control @error('pengirim') is-invalid @enderror" 
                     value="{{ old('pengirim') }}">
-                    @error('merk Hp')
+                    @error('Tipe Hp')
                     <div class="invalid-feedback">
                         {{ $message }}
                     </div>

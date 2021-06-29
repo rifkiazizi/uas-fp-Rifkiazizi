@@ -10,7 +10,7 @@
     </li>
   <li class="active treeview">
     <a href="{{ url('surat')}}">
-      <i class="fa fa-envelope"></i> <span>Hp</span>
+      <i class="fa fa-envelope"></i> <span>Surat</span>
     </a>
   </li>
 </ul>
@@ -27,7 +27,7 @@
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
         <li><a href="#">Forms</a></li>
-        <li class="active">Edit Hp</li>
+        <li class="active">Edit Surat</li>
       </ol>
     </section>
 
@@ -39,7 +39,7 @@
           <!-- Edit Surat -->
           <div class="box box-primary">
             <div class="box-header with-border">
-              <h3 class="box-title">Edit Hp</h3>
+              <h3 class="box-title">Edit Surat</h3>
             </div>
             <!-- /.box-header -->
             <!-- form start -->
@@ -48,17 +48,17 @@
                 @csrf
                 <div class="box-body">
                 <div class="form-group">
-                    <label>tipe hp</label>
+                    <label>Nomor Surat</label>
                     <input type="number" name="nomor_surat" class="form-control @error('nomor_surat') is-invalid @enderror" 
                     value="{{ old('nomor_surat',$surat->nomor_surat) }}" autofocus>
-                    @error('nomor_Hp')
+                    @error('nomor_surat')
                     <div class="invalid-feedback">
                         {{ $message }}
                     </div>
                     @enderror
                 </div>
                 <div class="form-group">
-                    <label>merk Hp</label>
+                    <label>Pengirim Surat</label>
                     <input type="text" name="pengirim" class="form-control @error('pengirim') is-invalid @enderror" 
                     value="{{ old('pengirim',$surat->pengirim) }}">
                     @error('pengirim')
@@ -69,7 +69,7 @@
                 </div>
                 <div class="form-group">
                     <div class="form-group">
-                        <label>Tahun</label>
+                        <label>Tanggal</label>
                         <input type="date" name="tanggal_surat" class="form-control" 
                         value="{{ old('tanggal',$surat->tanggal_surat) }}">
                     </div>
