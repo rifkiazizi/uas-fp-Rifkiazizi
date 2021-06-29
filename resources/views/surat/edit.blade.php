@@ -48,7 +48,7 @@
                 @csrf
                 <div class="box-body">
                 <div class="form-group">
-                    <label>merk Hp</label>
+                    <label>tipe hp</label>
                     <input type="number" name="nomor_surat" class="form-control @error('nomor_surat') is-invalid @enderror" 
                     value="{{ old('nomor_surat',$surat->nomor_surat) }}" autofocus>
                     @error('nomor_Hp')
@@ -58,7 +58,7 @@
                     @enderror
                 </div>
                 <div class="form-group">
-                    <label>tipe Hp</label>
+                    <label>merk Hp</label>
                     <input type="text" name="pengirim" class="form-control @error('pengirim') is-invalid @enderror" 
                     value="{{ old('pengirim',$surat->pengirim) }}">
                     @error('pengirim')
