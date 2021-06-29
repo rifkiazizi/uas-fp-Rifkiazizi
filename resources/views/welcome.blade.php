@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Rekam Data Hp</title>
+  <title>Rekam Surat | Surat Masuk</title>
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.6 -->
   {{-- {{ asset('') }} digunakan saat offline/ local server --}}
@@ -31,7 +31,7 @@
       <!-- mini logo for sidebar mini 50x50 pixels -->
       <span class="logo-mini"><b>R</b>S</span>
       <!-- logo for regular state and mobile devices -->
-      <span class="logo-lg"><b>Rekam</b>DataHp</span>
+      <span class="logo-lg"><b>Rekam</b>Surat</span>
     </a>
     <!-- Header Navbar: style can be found in header.less -->
     <nav class="navbar navbar-static-top">
@@ -139,7 +139,7 @@
                 <img src="{{ asset('dist/img/user2-160x160.jpg') }}" class="img-circle" alt="User Image">
 
                 <p>
-                  <p>{{ Auth::user()->name}}</p> - 1809020
+                  <p>{{ Auth::user()->name}}</p> - 18090112
                   <small>6B</small>
                 </p>
               </li>
@@ -193,7 +193,7 @@
     <div class="pull-right hidden-xs">
       <b>Version</b> 2.3.8
     </div>
-    <strong>Copyright &copy; 2021 <a>Pen</a>.</strong> All rights
+    <strong>Copyright &copy; 2021 <a>Rekam Surat</a>.</strong> All rights
     reserved.
   </footer>
   <!-- Add the sidebar's background. This div must be placed

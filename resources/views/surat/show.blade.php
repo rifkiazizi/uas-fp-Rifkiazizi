@@ -10,7 +10,7 @@
     </li>
   <li class="active treeview">
     <a href="{{ url('surat')}}">
-      <i class="fa fa-envelope"></i> <span>Hp</span>
+      <i class="fa fa-envelope"></i> <span>s</span>
     </a>
   </li>
 </ul>
@@ -22,11 +22,11 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Tampil Hp
+        Tampil Surat
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li class="active">Tampil Hp</li>
+        <li class="active">Tampil Surat</li>
       </ol>
       
     </section>
@@ -39,7 +39,7 @@
           <!-- Tampil Surat -->
           <div class="box box-primary">
             <div class="box-header with-border">
-              <h3 class="box-title">Tampil Hp</h3>
+              <h3 class="box-title">Tampil Surat</h3>
             </div>
             <!-- /.box-header -->
             <!-- form start -->
@@ -49,15 +49,15 @@
                         <table class="table table-bordered">
                             <tbody>
                                 <tr>
-                                    <th>Merk Hp/th>
+                                    <th>Nomor Surat</th>
                                     <td>{{$surat->nomor_surat}}</td>
                                 </tr>
                                 <tr>
-                                    <th>Tipe Hp</th>
+                                    <th>Pengirim Surat</th>
                                     <td>{{$surat->pengirim}}</td>
                                 </tr>
                                 <tr>
-                                    <th>Tahun</th>
+                                    <th>Tanggal Surat</th>
                                     <td>{{$surat->tanggal_surat}}</td>
                                 </tr>
                                 <th>Gambar</th>

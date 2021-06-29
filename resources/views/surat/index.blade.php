@@ -10,7 +10,7 @@
     </li>
   <li class="active treeview">
     <a href="{{'surat'}}">
-      <i class="fa fa-envelope"></i> <span>Hp</span>
+      <i class="fa fa-envelope"></i> <span>Surat</span>
     </a>
   </li>
 </ul>
@@ -40,7 +40,7 @@
   <section class="content">
     <div class="row">
       <div class="col-md-3">
-        <a href="{{'surat/create'}}" class="btn btn-primary btn-block margin-bottom">Tambah Hp</a>
+        <a href="{{'surat/create'}}" class="btn btn-primary btn-block margin-bottom">Tulis Surat</a>
 
         <div class="box box-solid">
           <div class="box-header with-border">
